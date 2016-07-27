@@ -103,3 +103,27 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+#header{
+    background-color: #E91E63;
+    border-color: #E91E63;
+}
+
+#header ul li a, .navbar-inverse .navbar-brand{
+  color: #fff !important;
+}
+
+.sidebar{
+    background: #3c3e42;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar .nav>li>a:hover, .nav>li>a:focus {
+  background-color: #428bca;
+  color: #fff;
+}
+
+a{
+  color: #fff !important;
+}

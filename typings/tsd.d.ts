@@ -4,3 +4,6 @@
 /// <reference path="mime/mime.d.ts" />
 /// <reference path="node/node.d.ts" />
 /// <reference path="serve-static/serve-static.d.ts" />
+/// <reference path="swig/swig.d.ts" />
+/// <reference path="body-parser/body-parser.d.ts" />
+/// <reference path="express-session/express-session.d.ts" />

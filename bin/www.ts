@@ -10,7 +10,7 @@ class Www {
     public app;
 
     constructor() {
-        this.port = process.env.PORT || 3000;
+        this.port = process.env.PORT || 7000;
         this.app = app;
         this.init();
     }
