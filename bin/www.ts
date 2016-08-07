@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 "use strict";
-import * as app from "../src/app";
+import * as app from "../src/server/app";
 import * as http from "http";
 
 class Www {

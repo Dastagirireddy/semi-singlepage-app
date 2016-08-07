@@ -1,0 +1,11 @@
+// var MockDisposable = Rx.MockDisposable = function (scheduler) {
+//   this.scheduler = scheduler;
+//   this.disposes = [];
+//   this.disposes.push(this.scheduler.clock);
+// };
+//
+// MockDisposable.prototype.dispose = function () {
+//   this.disposes.push(this.scheduler.clock);
+// };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInB1YmxpYy9ub2RlX21vZHVsZXMvcngvdHMvY29yZS90ZXN0aW5nL21vY2tkaXNwb3NhYmxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFFLGtFQUFrRTtBQUNsRSxnQ0FBZ0M7QUFDaEMsd0JBQXdCO0FBQ3hCLDhDQUE4QztBQUM5QyxLQUFLO0FBQ0wsRUFBRTtBQUNGLG1EQUFtRDtBQUNuRCw4Q0FBOEM7QUFDOUMsS0FBSyIsImZpbGUiOiJwdWJsaWMvbm9kZV9tb2R1bGVzL3J4L3RzL2NvcmUvdGVzdGluZy9tb2NrZGlzcG9zYWJsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIiAgLy8gdmFyIE1vY2tEaXNwb3NhYmxlID0gUnguTW9ja0Rpc3Bvc2FibGUgPSBmdW5jdGlvbiAoc2NoZWR1bGVyKSB7XG4gIC8vICAgdGhpcy5zY2hlZHVsZXIgPSBzY2hlZHVsZXI7XG4gIC8vICAgdGhpcy5kaXNwb3NlcyA9IFtdO1xuICAvLyAgIHRoaXMuZGlzcG9zZXMucHVzaCh0aGlzLnNjaGVkdWxlci5jbG9jayk7XG4gIC8vIH07XG4gIC8vXG4gIC8vIE1vY2tEaXNwb3NhYmxlLnByb3RvdHlwZS5kaXNwb3NlID0gZnVuY3Rpb24gKCkge1xuICAvLyAgIHRoaXMuZGlzcG9zZXMucHVzaCh0aGlzLnNjaGVkdWxlci5jbG9jayk7XG4gIC8vIH07XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

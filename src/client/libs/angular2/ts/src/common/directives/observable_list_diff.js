@@ -1,0 +1,13 @@
+// TS does not have Observables
+System.register([], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var workaround_empty_observable_list_diff;
+    return {
+        setters:[],
+        execute: function() {
+        }
+    }
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInB1YmxpYy9ub2RlX21vZHVsZXMvYW5ndWxhcjIvdHMvc3JjL2NvbW1vbi9kaXJlY3RpdmVzL29ic2VydmFibGVfbGlzdF9kaWZmLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtCQUErQjs7OztRQVNwQixxQ0FBcUM7Ozs7WUFBTSIsImZpbGUiOiJwdWJsaWMvbm9kZV9tb2R1bGVzL2FuZ3VsYXIyL3RzL3NyYy9jb21tb24vZGlyZWN0aXZlcy9vYnNlcnZhYmxlX2xpc3RfZGlmZi5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIFRTIGRvZXMgbm90IGhhdmUgT2JzZXJ2YWJsZXNcblxuLy8gSSBuZWVkIHRvIGJlIGhlcmUgdG8gbWFrZSBUeXBlU2NyaXB0IHRoaW5rIHRoaXMgaXMgYSBtb2R1bGUuXG5pbXBvcnQge30gZnJvbSAnYW5ndWxhcjIvc3JjL2ZhY2FkZS9sYW5nJztcblxuLyoqXG4gKiBUaGlzIG1vZHVsZSBleGlzdHMgaW4gRGFydCwgYnV0IG5vdCBpbiBUeXBlc2NyaXB0LiBUaGlzIGV4cG9ydGVkIHN5bWJvbFxuICogaXMgb25seSBoZXJlIHRvIGhlbHAgVHlwZXNjcmlwdCB0aGluayB0aGlzIGlzIGEgbW9kdWxlLlxuICovXG5leHBvcnQgdmFyIHdvcmthcm91bmRfZW1wdHlfb2JzZXJ2YWJsZV9saXN0X2RpZmY6IGFueTtcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

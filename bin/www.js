@@ -1,26 +1,26 @@
 #!/usr/bin/env node
 "use strict";
-const app = require("../src/app");
-const http = require("http");
-class Www {
-    constructor() {
+var app = require("../src/server/app");
+var http = require("http");
+var Www = (function () {
+    function Www() {
         this.port = process.env.PORT || 7000;
         this.app = app;
         this.init();
     }
-    static bootstrap() {
+    Www.bootstrap = function () {
         return new Www();
-    }
-    init() {
+    };
+    Www.prototype.init = function () {
         this.app.set("port", this.port);
         this.server = http.createServer(this.app);
         this.listener();
         this.errorHandler();
-    }
-    listener() {
+    };
+    Www.prototype.listener = function () {
         this.server.listen(this.port);
-    }
-    errorHandler() {
+    };
+    Www.prototype.errorHandler = function () {
         this.server.on("error", onError.bind(this));
         this.server.on("listening", onListening.bind(this));
         function onError(error) {
@@ -44,6 +44,7 @@ class Www {
         function onListening() {
             console.log("Listening on " + this.port);
         }
-    }
-}
+    };
+    return Www;
+}());
 Www.bootstrap();
